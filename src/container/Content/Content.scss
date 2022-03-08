@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap");
+
+.container {
+  max-width: 1280px;
+  // margin: 0 auto;
+}
+.content-con {
+  height: 264px;
+  background: #e8f0fe;
+  margin-top: 0;
+  display: flex;
+}
+
+.content-upload {
+  width: 280px;
+  height: 214px;
+  // padding-left: 15.5px;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 25px;
+  border-radius: 5px;
+  justify-content: center;
+  background: #fff;
+
+  h1 {
+    font-family: "Nunito", sans-serif;
+    padding-left: 15.5px;
+    padding-top: 20.25px;
+    font-size: 18px;
+  }
+}
+
+.content-btn {
+  display: flex;
+  align-items: center;
+  width: 237.61px;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.photo-btn {
+  // position: absolute;
+  width: 47.8%;
+  height: 26.4px;
+  border-radius: 3px;
+  background-color: #5d59f3;
+  border: none;
+  cursor: pointer;
+  img {
+    width: 64.7px;
+    height: 12.55px;
+  }
+}
+
+.content-btn :hover {
+  background-color: #565394;
+  opacity: 0.9;
+}
+
+.load-btn {
+  // position: absolute;
+  width: 47.8%;
+  height: 26.4px;
+  border-radius: 3px;
+  background-color: #5d59f3;
+  border: none;
+  cursor: pointer;
+  img {
+    width: 46.9px;
+    height: 13.2px;
+  }
+}
+
+.inform {
+  margin-top: 16px;
+  padding: 0px;
+  input {
+    width: 211.2px;
+    height: 26.4px;
+    border-radius: 3px 0px 0px 3px;
+
+    border: 1px solid #e8f0fe;
+  }
+  p {
+    font-family: "Nunito", sans-serif;
+    padding-top: 10px;
+    font-size: 12px;
+    line-height: 16.37px;
+    padding-left: 25px;
+  }
+}
+
+.inform-1 {
+  display: flex;
+  justify-content: center;
+  padding-right: 0px;
+}
+
+.inform-btn {
+  margin-left: 0px;
+  width: 26.4px;
+  height: 26.4px;
+  border-radius: 3px 3px;
+  background-color: #5d59f3;
+  border: none;
+  cursor: pointer;
+  img {
+    height: 10.6px;
+    width: 10.6px;
+  }
+}
+
+.inform-btn:hover {
+  background-color: #565394;
+  opacity: 0.9;
+}
+.passport-photo {
+  margin-top: 45px;
+  margin-left: 80px;
+  h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+.photo-con {
+  margin-top: 16px;
+  justify-content: space-between;
+  display: flex;
+  img {
+    width: 192px;
+    height: 118.8px;
+  }
+  div {
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content-upload {
+    margin-left: 0px auto;
+  }
+  .passport-photo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 960px) {
+  .content-con {
+    height: 300px;
+    align-items: center;
+  }
+
+  .photo-btn {
+    width: 100px;
+    // justify-content: center;
+    margin-right: 5px;
+  }
+
+  .load-btn {
+    width: 100px;
+    margin-left: 5px;
+  }
+
+  .content-upload {
+    width: 100%;
+    height: 214px;
+  }
+  .inform {
+    input {
+      width: 190px;
+    }
+  }
+  .passport-photo {
+    margin-top: 10px;
+    margin-left: 20px;
+
+    h1 {
+      font-size: 14px;
+      font-weight: 700px;
+    }
+  }
+  .photo-con {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+}
