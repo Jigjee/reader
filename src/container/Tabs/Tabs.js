@@ -15,17 +15,19 @@ const Tabs = () => {
       <div className="tabs-con">
         <div className="tabs-content">
           <div className="icon">
-            <div>
-              <img src={images.refresh} alt="refresh" />
-            </div>
-            <div>
-              <img src={images.assignment} alt="assignment" />
-            </div>
-            <div>
-              <img src={images.download} alt="download" />
-            </div>
-            <div>
-              <img src={images.zip} alt="zip" />
+            <div className="icon-con">
+              <div>
+                <img src={images.refresh} alt="refresh" />
+              </div>
+              <div>
+                <img src={images.assignment} alt="assignment" />
+              </div>
+              <div>
+                <img src={images.download} alt="download" />
+              </div>
+              <div>
+                <img src={images.zip} alt="zip" />
+              </div>
             </div>
           </div>
           <div className="bloc-tabs">

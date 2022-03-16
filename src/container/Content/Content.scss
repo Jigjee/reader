@@ -5,6 +5,7 @@
   // margin: 0 auto;
 }
 .content-con {
+  width: 100%;
   height: 264px;
   background: #e8f0fe;
   margin-top: 0;
@@ -15,7 +16,7 @@
   width: 280px;
   height: 214px;
   // padding-left: 15.5px;
-  align-items: center;
+  // align-items: center;
   margin-left: 40px;
   margin-top: 25px;
   border-radius: 5px;
@@ -33,14 +34,15 @@
 .content-btn {
   display: flex;
   align-items: center;
-  width: 237.61px;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: center;
   margin-top: 24px;
+  padding: 5px;
 }
 
 .photo-btn {
   // position: absolute;
-  width: 47.8%;
+  width: 45%;
   height: 26.4px;
   border-radius: 3px;
   background-color: #5d59f3;
@@ -59,7 +61,7 @@
 
 .load-btn {
   // position: absolute;
-  width: 47.8%;
+  width: 45%;
   height: 26.4px;
   border-radius: 3px;
   background-color: #5d59f3;
@@ -75,10 +77,10 @@
   margin-top: 16px;
   padding: 0px;
   input {
-    width: 211.2px;
+    width: 80%;
     height: 26.4px;
     border-radius: 3px 0px 0px 3px;
-
+    margin-right: 0px;
     border: 1px solid #e8f0fe;
   }
   p {
@@ -92,6 +94,7 @@
 
 .inform-1 {
   display: flex;
+  // flex-direction: row;
   justify-content: center;
   padding-right: 0px;
 }
@@ -115,6 +118,7 @@
   opacity: 0.9;
 }
 .passport-photo {
+  width: 63.5%;
   margin-top: 45px;
   margin-left: 80px;
   h1 {
@@ -152,26 +156,26 @@
     align-items: center;
   }
 
-  .photo-btn {
-    width: 100px;
-    // justify-content: center;
-    margin-right: 5px;
-  }
+  // .photo-btn {
+  //   width: 100px;
+  //   // justify-content: center;
+  //   margin-right: 5px;
+  // }
 
-  .load-btn {
-    width: 100px;
-    margin-left: 5px;
-  }
+  // .load-btn {
+  //   width: 100px;
+  //   margin-left: 5px;
+  // }
 
-  .content-upload {
-    width: 100%;
-    height: 214px;
-  }
-  .inform {
-    input {
-      width: 190px;
-    }
-  }
+  // .content-upload {
+  //   width: 100%;
+  //   height: 214px;
+  // }
+  // .inform {
+  //   input {
+  //     width: 190px;
+  //   }
+  // }
   .passport-photo {
     margin-top: 10px;
     margin-left: 20px;
