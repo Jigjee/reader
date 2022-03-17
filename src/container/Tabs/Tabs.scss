@@ -111,7 +111,7 @@
 button {
   border: none;
 }
-.content-tabs {
+ิ .content-tabs {
   flex-grow: 1;
 }
 .content {
@@ -253,15 +253,13 @@ button {
   height: 222px;
 
   ul {
-    align-items: center;
-
     li {
-      align-items: center;
       height: 37px;
       width: 250.8px;
       list-style: none;
       border-radius: 10px;
 
+      padding-top: 5px;
       a {
         padding-left: 10px;
         text-decoration: none;
