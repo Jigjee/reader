@@ -56,17 +56,24 @@ const Tabs = () => {
               <div className="result-con">
                 <div className="result-con-l">
                   <div className="con-l-1">
-                    <div className="table-1">
-                      <h3>
-                        Processing time :<h2> 0.256s</h2>
-                      </h3>
-                      <h3>
-                        Upload/Download:<h2> 1.637s</h2>
-                      </h3>
-                      <h3>
-                        Total time :<h2> 1.893s</h2>
-                      </h3>
-                    </div>
+                    <table className="table-1">
+                      <thead>
+                        <tr>
+                          <th>Processing time : </th>
+                          <th>0.256s</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Upload/Download : </td>
+                          <td>1.637s</td>
+                        </tr>
+                        <tr>
+                          <td>Total time : </td>
+                          <td>1.893s </td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                   <div className="con-l-2">
                     <div>
