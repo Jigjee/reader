@@ -2,12 +2,13 @@
 
 .container {
   max-width: 1280px;
+  max-height: 1640px;
 }
 .tabs-con {
   width: 100%;
-
+  height: 80%;
   background: #e8f0fe;
-  // margin-top: 41.5px;
+
   position: relative;
   justify-content: center;
   align-items: flex-end;
@@ -15,13 +16,11 @@
 
 .tabs-content {
   width: 89.6%;
-  height: 730.2px;
+  height: 57%;
   background: #fff;
   margin-left: 46px;
-  // padding-top: 60px;
   padding-left: 15px;
   border-radius: 5px;
-  // margin-top: 40px;
   position: relative;
 }
 
@@ -40,12 +39,10 @@
 }
 .tabs-bar {
   align-items: flex-start;
-  // padding-top: 23.5px;
 }
 
 .icon {
   display: flex;
-  // justify-content: flex-end;
   cursor: pointer;
   height: 20px;
   align-items: center;
@@ -54,8 +51,6 @@
   z-index: 99;
   margin-top: 25px;
   padding-left: 0px;
-  // // margin-left: 920px;
-  // border: 1px solid red;
 }
 
 .icon-con {
@@ -77,9 +72,7 @@
   padding: 0 15px;
   text-align: center;
   width: 53px;
-
   cursor: pointer;
-
   box-sizing: content-box;
   position: relative;
   outline: none;
@@ -157,6 +150,7 @@ button {
   margin-left: 10px;
   margin-top: 19px;
   width: 223.5px;
+  justify-content: flex-start;
 }
 .table-1 {
   font-family: "Nunito", sans-serif;
@@ -169,7 +163,6 @@ button {
     line-height: 24.55px;
   }
   h2 {
-    // text-align: end;
     padding-left: 25px;
     font-weight: 700;
     font-size: 12px;
@@ -177,28 +170,37 @@ button {
 }
 
 .con-l-2 {
-  margin-left: 0px;
-
-  margin-top: 20px;
-
+  margin-top: 30px;
+  margin-left: 0px auto;
   h1 {
-    padding-top: 15px;
+    padding-top: 20px;
     font-family: "Nunito", sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 24.55px;
   }
 }
+
+.con-l-3 {
+  h1 {
+    padding-top: 20px;
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24.55px;
+  }
+}
+
 .crop-img {
   margin-left: 0px;
   padding-top: 15px;
   width: 192px;
   height: 119.2px;
-  justify-content: flex-start;
+  padding-left: 0px;
 }
 
 .face {
-  justify-content: center;
+  justify-content: flex-start;
   width: 130px;
   height: 160px;
   padding-top: 10px;
@@ -206,7 +208,6 @@ button {
 
 .result-con-r {
   margin-top: 15px;
-  // margin-right: 32px;
   font-family: "Nunito", sans-serif;
   width: 78%;
   height: 630px;
@@ -220,15 +221,19 @@ button {
 .table-2 {
   font-size: 12px;
   margin-left: 25px;
+  width: 95%;
 
   th {
     font-weight: 700;
     padding-bottom: 20px;
     text-align: left;
   }
+  td:nth-of-type(1) {
+    width: 50%;
+    display: inline;
+  }
   td {
     padding-bottom: 3px;
-    padding-right: 25px;
     font-weight: 400;
   }
 }
@@ -256,14 +261,11 @@ button {
       border-radius: 10px;
 
       a {
-        // padding-top: 16px;
         padding-left: 10px;
         text-decoration: none;
         font-size: 12px;
         font-weight: 400;
         color: #222;
-        // display: inline-block;
-        // align-items: center;
       }
     }
   }
@@ -309,39 +311,38 @@ button {
     height: 90%;
   }
 
-  .icon {
-    margin-left: 550px;
-  }
-
-  .table-2 {
-    justify-content: center;
-    tbody {
-      tr {
-        width: 300px;
-      }
-      td:nth-child(1) {
-        display: inline;
-        padding-right: 150px;
-        width: 350px;
-      }
-      td:nth-child(2) {
-        align-items: center;
-      }
-    }
-  }
-
-  // td {
-  //   padding-right: 100px;
-  //   // display: inline-block;
-  //   // justify-content: center;
-  // }
-  .con-l-2 {
-    margin-left: 40px;
-    margin-top: 0px;
+  .icon-con {
+    margin-left: 77%;
+    width: 10%;
     display: flex;
   }
+}
 
-  .face {
-    margin-right: 60px;
+.table-2 {
+  justify-content: center;
+  font-size: 10px;
+  tbody {
+    tr {
+      width: 300px;
+    }
+    td:nth-child(1) {
+      display: inline;
+      padding-right: 150px;
+      width: 399px;
+    }
+    td:nth-child(2) {
+      align-items: center;
+      // padding-left: 150px;
+    }
   }
+}
+
+.con-l-2 {
+  margin-top: -15px;
+}
+.con-l-3 {
+  margin-top: -15px;
+}
+.face {
+  margin-right: 60px;
 }

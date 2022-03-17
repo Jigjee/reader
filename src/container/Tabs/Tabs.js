@@ -73,15 +73,14 @@ const Tabs = () => {
                       <h1>Portrait</h1>
                       <img className="face" src={images.face} alt="face" />
                     </div>
-
-                    <div>
-                      <h1>Cropped image</h1>
-                      <img
-                        className="crop-img"
-                        src={images.passport5}
-                        alt="passport5"
-                      />
-                    </div>
+                  </div>
+                  <div className="con-l-3">
+                    <h1>Cropped image</h1>
+                    <img
+                      className="crop-img"
+                      src={images.passport5}
+                      alt="passport5"
+                    />
                   </div>
                 </div>
                 <div className="result-con-r">

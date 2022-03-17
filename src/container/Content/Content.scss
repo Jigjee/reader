@@ -2,7 +2,6 @@
 
 .container {
   max-width: 1280px;
-  // margin: 0 auto;
 }
 .content-con {
   width: 100%;
@@ -15,8 +14,7 @@
 .content-upload {
   width: 280px;
   height: 214px;
-  // padding-left: 15.5px;
-  // align-items: center;
+
   margin-left: 40px;
   margin-top: 25px;
   border-radius: 5px;
@@ -41,7 +39,6 @@
 }
 
 .photo-btn {
-  // position: absolute;
   width: 45%;
   height: 26.4px;
   border-radius: 3px;
@@ -60,7 +57,6 @@
 }
 
 .load-btn {
-  // position: absolute;
   width: 45%;
   height: 26.4px;
   border-radius: 3px;
@@ -94,7 +90,7 @@
 
 .inform-1 {
   display: flex;
-  // flex-direction: row;
+
   justify-content: center;
   padding-right: 0px;
 }
@@ -120,7 +116,7 @@
 .passport-photo {
   width: 63.5%;
   margin-top: 45px;
-  margin-left: 80px;
+  margin-left: 25px;
   h1 {
     font-family: "Nunito", sans-serif;
     font-size: 20px;
@@ -156,26 +152,6 @@
     align-items: center;
   }
 
-  // .photo-btn {
-  //   width: 100px;
-  //   // justify-content: center;
-  //   margin-right: 5px;
-  // }
-
-  // .load-btn {
-  //   width: 100px;
-  //   margin-left: 5px;
-  // }
-
-  // .content-upload {
-  //   width: 100%;
-  //   height: 214px;
-  // }
-  // .inform {
-  //   input {
-  //     width: 190px;
-  //   }
-  // }
   .passport-photo {
     margin-top: 10px;
     margin-left: 20px;
